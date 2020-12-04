@@ -24,7 +24,7 @@ def query(id):
                 return True
 
         else:
-                print(response.status_code)
+                print(response.status_code) #Print the error code if there is one
                 print(response.text)
                 return False
 
